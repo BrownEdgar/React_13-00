@@ -1,0 +1,41 @@
+{
+    "users":[
+        {
+            "_id":1,
+            "name": "Haykuhi",
+            "phone": "077217634",
+            "city": "Ejmiatcin"
+        },
+        {
+            "_id":2,
+            "name": "Henrik",
+            "phone": "094297904",
+            "city": "Yerevan"
+        },
+        {
+            "_id":3,
+            "name": "Edgar",
+            "phone": "055876504",
+            "city": "Vanadzor"
+        },
+        {
+            "_id":4,
+            "name": "Hayk",
+            "phone": "091667634",
+            "city": "Erevan"
+        },
+        {
+            "_id":5,
+            "name": "Mari",
+            "phone": "09587904",
+            "city": "Yerevan"
+        },
+        {
+            "_id":6,
+            "name": "Sona",
+            "phone": "055768932",
+            "city": "Vanadzor"
+        }
+
+    ]
+}
