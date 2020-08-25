@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react'
+import './App.css'
+import Child1 from './Child1'
+import ErrorHandler from './ErrorHandler'
 
-import './App.css';
+export default class App extends Component {
+  state={
+      count:16
+  }
 
-function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <ErrorHandler>
+          <Child1 count={this.state.count}/>
+        </ErrorHandler>
+      </div>
+    )
+  }
 }
-
-export default App;
