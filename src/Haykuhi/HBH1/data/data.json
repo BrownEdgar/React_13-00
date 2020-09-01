@@ -3,19 +3,19 @@
         {
             "_id":1,
             "name": "Haykuhi",
-            "phone": "077217634",
+            "phone": "077-985-621",
             "city": "Ejmiatcin"
         },
         {
             "_id":2,
             "name": "Henrik",
-            "phone": "094297904",
-            "city": "Yerevan"
+            "phone": "077-985-647",
+            "city": "Erevan"
         },
         {
             "_id":3,
             "name": "Edgar",
-            "phone": "055876504",
+            "phone": "077-659-621",
             "city": "Vanadzor"
         }
     ]

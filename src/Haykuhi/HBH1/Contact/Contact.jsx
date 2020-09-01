@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
-export default class Home extends Component {
+export default class Contact extends Component {
+   
     render() {
         return (
             <>
-                <h1>{this.props.name}</h1>
+                <h1>Contact Page</h1>
             </>
         )
     }
