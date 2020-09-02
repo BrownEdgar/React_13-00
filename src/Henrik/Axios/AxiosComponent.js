@@ -3,6 +3,7 @@ import axios from 'axios';
 
 export default function AxiosComponent() {
 	const [ email, setEmail ] = useState([]);
+	const [favorit, setfavorit ] = useState([]);
 
 	useEffect(() => {
 		axios
@@ -17,21 +18,15 @@ export default function AxiosComponent() {
 	}, []);
 
 	const ClickDotCom = () => {
-	  if (email[2].email.endsWith('.com')) {
-	  	console.log('ok');
-	  }
-	  else{
-		  console.log('sxal');
-	  }
+			 
+				let r = email.filter(elem => elem.email.endsWith('.com'))
+				console.log(r);
+				
 	 };
 	 const ClickDotBiz = (e) => {
-		// if (email[2].email.endsWith('.biz')) {
-		// 	console.log('ok');
-		// }
-		// else{
-		// 	console.log('sxal');
-		// }
-		setEmail(email)
+		 let r = email.filter(elem => elem.email.endsWith('.biz'))
+		 console.log(r);
+		
 	   };
 	return (
 		<div>
