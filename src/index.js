@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Henrik/Axios/App';
+import App from './Henrik/FilmDB/App';
 
 ReactDOM.render(
 	<React.StrictMode>
