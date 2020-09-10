@@ -13,7 +13,7 @@ function App() {
 		results: [],
 		selected: {}
 	});
-	const apiurl = 'http://www.omdbapi.com/?i=tt3896198&apikey=d8916f9f';
+	const apiurl = 'http://www.omdbapi.com/?apikey=d8916f9f';
 
 	const search = (e) => {
 		if (e.key === 'Enter') {
@@ -23,7 +23,8 @@ function App() {
 				setState((prevState) => {
 					return { ...prevState, results: results };
 				});
-			});
+			})
+			.catch((err)=> console.log(err));
 		}
 	};
 
@@ -36,10 +37,10 @@ function App() {
 	};
 
 	const openPopup = (id) => {
-		axios(apiurl + '&i=' + id).then(({ data }) => {
+		axios(`${apiurl}&i=${id}`).then(( {data} ) => {
 			let result = data;
 
-			console.log(result);
+			console.log("result;",result);
 
 			setState((prevState) => {
 				return { ...prevState, selected: result };
@@ -63,7 +64,7 @@ function App() {
 
 				<Results results={state.results} openPopup={openPopup} />
 
-				{typeof state.selected.Title != 'undefined' ? <Popup selected={state.selected} closePopup={closePopup} /> : false}
+				{Object.keys(state.selected).length >= 1 ? <Popup selected={state.selected} closePopup={closePopup} /> : null}
 			</main>
 		</div>
 	);

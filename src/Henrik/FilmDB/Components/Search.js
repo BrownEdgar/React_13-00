@@ -9,6 +9,7 @@ function Search({ handleInput, search }) {
 				className='searchbox'
 				onChange={handleInput}
 				onKeyPress={search}
+				defaultValue={"green"}
 			/>
 		</section>
 	);
