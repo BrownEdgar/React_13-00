@@ -8,12 +8,8 @@ import About from './About/About';
 import Services from './Services/Services';
 import Contact from './Contact/Contact';
 import Error404 from './Error404/Error404';
-<<<<<<< HEAD
-import data from './data/data.json';
-=======
 import data from './data/data.json'
 
->>>>>>> 344c4d2dad8b6566c3fc9eba097fc9e4e0d0af9b
 
 export const MyContext = React.createContext();
 
