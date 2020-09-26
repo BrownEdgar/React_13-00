@@ -6,17 +6,18 @@ export default class Das1 extends Component {
     titile: 12
   }
 
-  counterPlus() {
+  counterPlus = () => {
     this.setState({
       count: this.state.count + 10
     })
   }
-  counterMinus() {
+  counterMinus = () => {
     this.setState({
       count: this.state.count - 5
     })
   }
-  reset() {
+  reset = () => {
+    
     this.setState({
       count: 0
     })
