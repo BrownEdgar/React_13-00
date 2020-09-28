@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import Das1 from "./Das1"
-
+import Das2 from "./Das2"
 export default class App1 extends Component {
 	render() {
 		return (
 			<div>
-				<Das1/>
+				<Das2/>
 			</div>
 		)
 	}
