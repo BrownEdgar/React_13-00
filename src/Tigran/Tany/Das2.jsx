@@ -7,7 +7,7 @@ export default class Das2 extends Component {
     count: 0
   }
   counterPlus = () => {
-    if (this.state.count < this.state.things.length) {
+    if (this.state.count < this.state.things.length - 1) {
       this.setState({
         count: this.state.count + 1
       })
@@ -18,15 +18,15 @@ export default class Das2 extends Component {
       return
     }
     this.setState({
-      count: this.state.count -1
+      count: this.state.count - 1
     })
   }
   home = () => {
     this.setState({
-      count:0
+      count: 0
     })
   }
-  
+
 
   render() {
     return (

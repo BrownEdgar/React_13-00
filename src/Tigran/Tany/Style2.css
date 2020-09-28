@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
-
-
-
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Epilogue', sans-serif;
 }
 
-.main{
+.main {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -17,27 +14,26 @@ body{
   height: 100vh;
 }
 
-.box1{
+.box1 {
   width: 400px;
   height: 350px;
   padding: 50px;
-  border: 2px solid rgba(0,0,0,0.8);
-
+  border: 2px solid rgba(0, 0, 0, 0.8);
 }
-.content{
+
+.content {
   height: 50px;
 }
 
-.page{
+.page {
   font-size: 20px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
-button{
-
+button {
   font-family: 'Epilogue', sans-serif;
   margin: 10px;
   width: 100px;
