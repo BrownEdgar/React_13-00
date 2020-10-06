@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Edgar/das2/App";
+import App from "./Edgar/work_with_img/App";
 
 
 
