@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Texum/form/App";
+import App from "./Tigran/Texum/work_with_img/App";
 
 
 
