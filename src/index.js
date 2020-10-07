@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Edgar/work_with_img/App";
+import App from "./Edgar/Artash/App";
 
 
 
 ReactDOM.render(
  <React.StrictMode>
-    <App />
+    <App a="1"/>
  </React.StrictMode>,
  document.getElementById('root'));
