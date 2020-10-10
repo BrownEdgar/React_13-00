@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import One from './One'
-import "./App.css"
 
 
 export default class App extends Component {
@@ -34,7 +33,6 @@ export default class App extends Component {
       <div>
         {questions.map(elem => {
           return <One
-            key={elem.id}
             _id={elem.id}
             _question={elem.question}
             _changeContent={this.changeContent}
