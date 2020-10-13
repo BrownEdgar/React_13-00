@@ -6,6 +6,6 @@ import App from "./Edgar/Artash/App";
 
 ReactDOM.render(
  <React.StrictMode>
-    <App a="1"/>
+    <App/>
  </React.StrictMode>,
  document.getElementById('root'));
