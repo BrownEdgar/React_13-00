@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Texum/Roude/App";
+import App from "./Edgar/Artash/Router/App";
 
 
 
