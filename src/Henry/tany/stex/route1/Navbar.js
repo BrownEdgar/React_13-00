@@ -1,29 +1,32 @@
-
-import React from 'react'
-import {NavLink} from 'react-router-dom'
-import s from './Navbar.module.css'
-
-export default function Navbar() {
-    return (
-        <div className={s.header}>
-            <ul className={s.list}>
-                <li>
-                    <NavLink to='/' activeClassName={s.active} exact>
-                        Home Page
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/cars'activeClassName={s.active} exact>
-                        Cars
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/contact' activeClassName={s.active} exact>
-                        Contact
-                    </NavLink>
-                </li>
-            </ul>
-            
-        </div>
-    )
+import React, {Component} from 'react';
+import {NavLink, Link} from 'react-router-dom';
+import style from './Navbar.module.css'
+class Nav extends Component {
+    render() {
+        return (
+            <nav className={style.flex}>
+   
+                <ul className="myMenu">
+						<li>
+							<NavLink to={{
+								pathname:'/'}}
+							activeClassName={style.active}
+							exact>
+								Home
+							</NavLink>
+						</li>
+					<li>
+						<NavLink to={{
+							pathname: '/cars'
+						}}
+							activeClassName={style.active}
+							exact>
+							Cars
+							</NavLink>
+					</li>
+                </ul>
+            </nav>
+        );
+    }
 }
+export default Nav;

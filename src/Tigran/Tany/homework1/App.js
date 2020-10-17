@@ -5,26 +5,16 @@ import One from './One'
 export default class App extends Component {
   state = {
     questions: [
-      { id: 1, question: "How are you" },
-      { id: 2, question: "What is your name" },
-      { id: 3, question: "how old are you?" }
-    ],
-    answers: [
-      { id: 1, answer: "Fine thank you, and you?" },
-      { id: 2, answer: "My name is Tigran" },
-      { id: 3, answer: "I am 18" }
-    ]
+			{ id: 0, question: "How are you", answer: "Fine thank you, and you?",show:false },
+			{ id: 1, question: "What is your name", answer: "My name is Tigran",show:false },
+			{ id: 2, question: "how old are you?", answer: "I am 18",
+			show:false  }
+    ],	
   }
   changeContent = (id) => {
-    this.setState({
-      questions: this.state.questions.map(question => {
-        if (question.id !== id) return question
-        return {
-          question: this.state.answers.find(answer => answer.id === question.id).answer,
-          id: question.id 
-        }
-      })
-    })
+		let questions = [...this.state.questions]
+		questions[id].show = !questions[id].show;
+		this.setState({ questions })
 
   }
   render() {
@@ -33,8 +23,11 @@ export default class App extends Component {
       <div>
         {questions.map(elem => {
           return <One
+						 key={elem.id}
             _id={elem.id}
             _question={elem.question}
+						_answer={elem.answer }
+						show={elem.show}
             _changeContent={this.changeContent}
           />
         }

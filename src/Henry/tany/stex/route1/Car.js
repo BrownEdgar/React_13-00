@@ -1,12 +1,23 @@
 import React from 'react'
-import s from './Car.css'
+import { withRouter } from 'react-router-dom'
+ function Car(props) {
+	 console.log('car props', props)
+	return (
+		<div className="car_item" onClick={() => props.history.push({ pathname: `/cars/${props.name}` })}>
+			<div>
 
-export default function Car(props) {
-    return (
-        
-            <div className={s.main_box}></div>
-            <div>
-                <img src={porps.img}
-            </div>
-    )
-    }
+				<img src={props.image} alt="nkar" />
+			</div>
+			
+			<div>
+				<p><strong> name: </strong>  {props.name}</p>
+				<p><strong> year: </strong>  {props.year}</p>
+				<p><strong> model:</strong>  {props.model}</p>
+				<p><strong> price:</strong>  {props.price}</p>
+
+			</div>
+		</div>
+	)
+}
+
+export default withRouter(Car)

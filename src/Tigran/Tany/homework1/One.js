@@ -5,6 +5,7 @@ export default function One(props) {
     <div className="mian">
       <div className="box">
       <h1>{props._question}</h1>
+				{props.show && <h4>{props._answer}</h4>}
         <button onClick={() => props._changeContent(props._id)}>Check the answer</button>
         </div>
     </div>
