@@ -3,27 +3,26 @@ import Child from './Child'
 
 export default class App extends Component {
     state = {
-        name: "Henry"
+        name: "error"
     }
-    ifErr=()=>{
+    checkError=()=>{
         this.setState({
-            name:this.state.name = 'krkin porci'
+            name:this.state.name = ""
         })
     }
     componentDidMount(){
         if (this.state.name === "error") {
-           this.ifErr()
+           this.checkError()
         }
     }
     render() {
-        
+        const { name } = this.state
         return (
             <div>
                 <Child
-                    name={this.state.name}
+                    name={name}
                 />
             </div>
         )
     }
 }
-
