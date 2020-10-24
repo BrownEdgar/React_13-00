@@ -1,0 +1,21 @@
+.btn {
+	width: 250px;
+	border: 2px solid black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	font-size: 24px;
+}
+.btn-warning{
+	background-color: orangeRed;
+	color: honeydew;
+}
+.btn-success {
+	border-radius: 8px;
+	border: 2px solid rgb(72, 255, 0);
+	background-color: green;
+	color: rgb(199, 199, 199);
+}
+.btn-primary {
+	background-color: rgb(27, 11, 175);
+	color: rgb(233, 212, 212)255, 245, 245);
+}
