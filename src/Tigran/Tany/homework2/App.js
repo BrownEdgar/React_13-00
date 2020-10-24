@@ -17,7 +17,6 @@ export default class App extends Component {
     const { fullName } = this.state
     return (
       <div>
-       
         <p>{fullName}</p>
         <form onSubmit={this.handleSubmit}>
           <input type="text" placeholder="Type Something" name="fullName" onChange={this.inputChnage} />
