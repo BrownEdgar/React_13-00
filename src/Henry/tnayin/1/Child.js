@@ -13,6 +13,7 @@ export default function Child(props) {
 				name={'value2'}
 				onChange={props._handlerChange}
 				/>
+				<input type='submit'/>
         </form>
     )
 }
