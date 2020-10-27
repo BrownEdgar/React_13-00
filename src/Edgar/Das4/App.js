@@ -19,6 +19,7 @@ export default class App extends Component {
 		dev = dev.filter(elem => elem._id !== currentID)
 		this.setState({ developers : dev });
 	}
+	
 	render() {
 		const {hidden,developers} = this.state
 		return (

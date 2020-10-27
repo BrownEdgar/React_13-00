@@ -4,38 +4,37 @@ import LifeComponent from './LifeComponent';
 
 export default class Test extends Component {
 	constructor(props) {
-		console.log("constructor run");
 		super(props);
 		this.state = {
 			count: 0,
+			prevCount:null
 
 		}
 	}
-
-static getDerivedStateFromProps(props, state) {
-	console.log(state);
-	return null
-}
-componentDidMount() {
-	console.log("sax nkarvac en");
-}
 shouldComponentUpdate(nextProps, nextState) {
-	if (nextState.count >=30){
-		console.log("Stop");
-		return false;
+	if (nextState.count > 5){
+		return false
 	}
-	console.log("der jamanaky che!");
 	return true
 }
-
-componentWillReceiveProps(nextProps) {
-	console.log("nextProps", nextProps);
+static getDerivedStateFromProps(props, state) {
+	return { prevCount: state.count -1}
+	
 }
+	getSnapshotBeforeUpdate(prevProps, prevState) {
+		console.log("getSnapshotBeforeUpdate");
+	
+		return "sadsa"
+	}
+	componentDidUpdate(prevProps, prevState,x) {
+		
+		console.log({ prevProps, prevState,x});
+	}
 	render() {
-		console.log("render run");
 		return (
 		<div>
-			{this.state.count}
+				<h1>count:{this.state.count}</h1>
+				<h1>prevCount:{this.state.prevCount}</h1>
 			<button onClick={()=>this.setState({ count:this.state.count + 1  })}>Up count</button>
 			<LifeComponent n={this.state.count}/>
 		</div>
