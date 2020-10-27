@@ -5,10 +5,10 @@ export default class App extends Component {
 
     state={
         pizza:[
-        {_id = 0,name:"Peperoni"},
-        {_id = 1,name:"four cheeses"},
-        {_id = 2,name:"Margherita"},
-        {_id = 3,name:"Carbonara"}
+        {_id: 0,name:"Peperoni"},
+        {_id: 1,name:"four cheeses"},
+        {_id: 2,name:"Margherita"},
+        {_id: 3,name:"Carbonara"}
     ],
         count:0
     }
@@ -21,19 +21,20 @@ export default class App extends Component {
         }
     }
     render() {
-        const { name } = this.state
+			const { pizza,count } = this.state
         return (
-            <ul>
-                {pizza.map(elem => {
-                    return <Child
-                    name = {elem.name}
-                    key={elem._id}
-                    id={elem._id}/>
-                })}
-                
-                <button onClick={() => this.piceCount(1)}>+</button>
-                
-            </ul>
+       <>
+						<ul>
+							{pizza.map(elem => {
+								return <Child
+									name={elem.name}
+									key={elem._id}
+									id={elem._id} />
+							})}
+						</ul>
+						<h1>{count}</h1>
+							<button onClick={() => this.piceCount(1)}>+</button>
+			 </>
         )
     }
 }
