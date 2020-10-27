@@ -14,7 +14,14 @@ export default class App extends Component {
         if (this.state.name === "error") {
            this.checkError()
         }
-    }
+		}
+		shouldComponentUpdate(nextProps, nextState, nextContext) {
+			if (nextState.name === "error") {
+				console.log("stop");
+				return false;
+			}
+			return true;
+		}
     render() {
         const { name } = this.state
         return (
