@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import Child from './Child'
+import './index.css'
 
 export default class App extends Component {
 
     state={
         pizza:[
-        {_id = 0,name:"Peperoni"},
-        {_id = 1,name:"four cheeses"},
-        {_id = 2,name:"Margherita"},
-        {_id = 3,name:"Carbonara"}
+        {_id:0,name:"Peperoni"},
+        {_id:1,name:"four cheeses"},
+        {_id:2,name:"Margherita"},
+        {_id:3,name:"Carbonara"}
     ],
         count:0
     }
@@ -21,7 +22,7 @@ export default class App extends Component {
         }
     }
     render() {
-        const { name } = this.state
+        const { pizza,count } = this.state
         return (
             <ul>
                 {pizza.map(elem => {
@@ -30,9 +31,10 @@ export default class App extends Component {
                     key={elem._id}
                     id={elem._id}/>
                 })}
-                
+                <h1>{count}</h1>
                 <button onClick={() => this.piceCount(1)}>+</button>
-                
+                <button onClick={() => this.piceCount(-1)}>-</button>
+                <button onClick={() => this.piceCount(0)}>0</button>
             </ul>
         )
     }
