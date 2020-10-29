@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Texum/Hook/UseReducer/App";
+import App from "./Tigran/Tany/homework7/App";
 
 
 
