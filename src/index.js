@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Edgar/localstorage/App";
+import App from "./Tigran/Tany/homework7/App";
 
 
 
