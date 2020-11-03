@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Texum/Img_gallary/App";
+import App from "./Tigran/Texum/Accordion_web/App";
 
 
 ReactDOM.render(
