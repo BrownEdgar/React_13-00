@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Henry/stex/image-gallery/App";
-
+import App from "./Henry/stex/accordion/App";
 
 
 ReactDOM.render(
-    <React.StrictMode>
-      <App/>
-   </React.StrictMode>,
+   // <React.StrictMode>
+      <App/>,
+   //   </React.StrictMode>,
    document.getElementById('root'));
