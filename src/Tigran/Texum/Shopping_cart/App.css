@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+}
+.app{
+    width: 90%;
+    margin:40px auto;
+}
+.app h1{
+    text-align: left;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: rgb(168, 157, 157);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.shoppingBag{
+    width: 100%;
+    min-height: 500px;
+    border-top:2px solid rgb(157, 157, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shoppingBag >div{
+    border-bottom: 1px solid rgb(157, 157, 157);
+    width: 100%;
+    min-width: 400px;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.w-image{
+    width: 120px;
+    height: 200px;
+}

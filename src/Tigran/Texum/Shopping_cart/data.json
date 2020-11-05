@@ -1,0 +1,36 @@
+{
+    "datas": [
+        {   
+            "id":"0",
+            "titile": "expensive watch",
+            "url": "https://images.unsplash.com/photo-1506796684999-9fa2770af9c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+            "price": "300$",
+            "size": "s",
+            "quantity": "13"
+        },
+        {
+            "id": "1",
+            "titile": "Bag",
+            "url": "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "price": "240$",
+            "size": "L",
+            "quantity": "17"
+        },
+        {
+            "id": "2",
+            "titile": "Jeens",
+            "url": "https://images.unsplash.com/photo-1541983371526-9650b08db679?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            "price": "120$",
+            "size": "M",
+            "quantity": "30"
+        },
+        {
+            "id": "3",
+            "titile": "Hoodie",
+            "url": "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "price": "79$",
+            "size": "M",
+            "quantity": "5"
+        }
+    ]
+}
