@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import { Card } from '@material-ui/core';
+
 import Cart from './Cart';
 export default function Carts(props) {
 	return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Texum/Accordion_web/App";
+import App from "./Edgar/shopping-cart/App";
 
 
 ReactDOM.render(

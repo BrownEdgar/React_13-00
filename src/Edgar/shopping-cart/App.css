@@ -39,6 +39,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	padding-top: 20px;
 }
 .W-image img{
 	width: 120px;
