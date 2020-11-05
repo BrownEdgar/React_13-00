@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Edgar/shopping-cart/App";
+import App from "./Edgar/edit-text/App";
 
 
 ReactDOM.render(

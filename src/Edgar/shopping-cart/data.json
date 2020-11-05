@@ -6,7 +6,9 @@
 			"url": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1059&q=80",
 			"price": "1470",
 			"size":"XL",
-			"quantity":"8"
+			"quantity":"8",
+			"color": "white",
+			"itemNO":"8749521483564"
 		},
 		{
 			"_id": 2,
@@ -14,7 +16,9 @@
 			"url": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=282&q=80",
 			"price": "170",
 			"size": "XXL",
-			"quantity": "18"
+			"quantity": "18",
+			"color": "black",
+			"itemNO":"8749521483564"
 		},
 		{
 			"_id":3,
@@ -22,7 +26,9 @@
 			"url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=989&q=80",
 			"price": "1470",
 			"size": "M",
-			"quantity": "6"
+			"quantity": "6",
+			"color": "brown",
+			"itemNO":"8749521483564"
 		},
 		{
 			"_id": 4,
@@ -30,7 +36,9 @@
 			"url": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
 			"price": "1470",
 			"size": "XS",
-			"quantity": "2"
+			"quantity": "2",
+			"color": "black",
+			"itemNO":"8749521483564"
 		}
 	]
 }

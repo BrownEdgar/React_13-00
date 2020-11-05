@@ -10,10 +10,12 @@ export default function Carts(props) {
 					key={elem._id}
 					id={elem._id}
 					title={elem.title}
+					color={elem.color}
 					price={elem.price}
 					url={elem.url}
 					size={elem.size}
-					quaintity={elem.quaintity}
+					quantity={elem.quantity}
+					itemNO={elem.itemNO}
 					/>
 			))}
 		</>
