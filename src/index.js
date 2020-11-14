@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Henry/stex/shopping-cart/App";
+import App from "./Henry/tnayin/4/App";
 
 
 ReactDOM.render(

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { addDollor } from './Helpers'
 
 export default function Cart(props) {

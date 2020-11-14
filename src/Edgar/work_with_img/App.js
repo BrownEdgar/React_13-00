@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Nkar from "./img/logo192.png"
+
 import data from './data.json'
 import "./App.css"
 export default class App extends Component {
