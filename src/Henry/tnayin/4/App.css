@@ -40,17 +40,17 @@ p{
     
 }
 #second h1{
-    color: blue;
+    color: #5E60FD;
     margin-left: 20px;
     font-size: 70px;
 }
 #first h1{
-    color: blue;
+    color: #5E60FD;
     margin-left: 20px;
     font-size: 70px;
 }
 #third h1{
-    color: blue;
+    color: #5E60FD;
     margin-left: 20px;
     font-size: 70px;
 }
@@ -80,4 +80,40 @@ h3{
     margin-left: 200px;
     height: 55px;
     width: 500px;
+}
+li{
+    display: inline-block;
+}
+#last li i{
+    color: royalblue;
+    font-size: 30px;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+span{
+    color: #1CB58A;
+}
+h2{
+    color: gray;
+    padding: 10px;
+}
+#last1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#last1 h2:nth-child(2) {
+	margin-left: auto;
+}
+#last1 p{
+    color: gray;
+    font-size: 18px;
+}
+#last1 span{
+    color: white;
 }
