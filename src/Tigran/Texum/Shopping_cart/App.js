@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
-import "./App.css"
+import './App.css'
 import data from "./data.json"
-import carts from "./Carts"
-import Carts from './Carts'
-
+import Cards from "./Carts"
+import Title from './Title'
 export default class App extends Component {
-    state = {
-        data:data.datas
-    }
-    render() {
-        const {data}= this.state
-        return (
-            <div className="app">
-                    <h1>My shopping bag</h1>
-                <div className="shoppingBag">
-                    <Carts data={data}></Carts>
-                </div>
-            </div>
-        )
-    }
+	state = {
+		data: data.datas
+	}
+	render() {
+		const {data} = this.state;
+		return (
+			<div className="app">
+				<h1>my shopping bag</h1>
+				<Title/>
+				<div className='watch-wrapper'>
+					<Cards data={data}/>
+				</div>
+			</div>
+		)
+	}
 }

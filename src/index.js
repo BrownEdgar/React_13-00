@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Texum/Shopping_cart/App";
+import App from "./Tigran/Tany/homework8/App";
 
 
 ReactDOM.render(
