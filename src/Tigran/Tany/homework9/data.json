@@ -1,0 +1,32 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "header": "Free",
+            "price": 0,
+            "bandwidth": ":1Gb",
+            "onlinespace": ":50MB",
+            "support": ":NO"
+        },
+        {
+            "id": 2,
+            "header": "Economy",
+            "price": 19,
+            "bandwidth": ":1Gb",
+            "onlinespace": ":500MB",
+            "support": ":YES",
+            "domain":5
+            
+        },
+        {
+            "id": 3,
+            "header": "Deluxe",
+            "price": 29,
+            "bandwidth": ":1Gb",
+            "onlinespace": ":2000MB",
+            "support": ":YES",
+            "domain": 10,
+            "hidenfees":"NO"
+        }
+    ]
+}

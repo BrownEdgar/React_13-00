@@ -1,2 +1,16 @@
-$bg-color: #2222;
+$bg-color: #222;
 $main-fontSize: 20px;
+$box-color:#25282c;
+
+//------visual
+
+.visual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5658dd;
+    width: 85%;
+    padding: 50px;
+    margin: 20px auto;
+    
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./Tigran/Tany/homework8/App";
+import { BrowserRouter as Router } from 'react-router-dom'
+import App from "./Tigran/Tany/homework9/App";
+
 
 
 ReactDOM.render(
-   // <React.StrictMode>
-      <App/>,
-   //   </React.StrictMode>,
+   <Router>
+      <App/>
+   </Router>,
    document.getElementById('root'));
