@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "id":1,
+            "packet":"FREE",
+            "price":"$0",
+            "bandwidth":"1GB",
+            "onlinespace":"50MB",
+            "suport":"NO"
+        },
+        {
+            "id":2,
+            "packet":"ECONOMY",
+            "price":"$19",
+            "bandwidth":"1GB",
+            "onlinespace":"500MB",
+            "suport":"YES" 
+        },
+        {
+            "id":2,
+            "packet":"Deluxe",
+            "price":"$29",
+            "bandwidth":"1GB",
+            "onlinespace":"2GB",
+            "suport":"YES" 
+        }
+    ]
+}

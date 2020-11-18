@@ -1,0 +1,67 @@
+@import "./Valiables.scss";
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: $bg-color;
+}
+.app{
+    width: 90%;
+    height:auto;
+    margin: 50px auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    >div{
+        flex-basis: 30%;
+        background-color: $box-color;
+        padding: 15px 20px;
+        color: #dedede;
+        p{
+            text-indent: 30px;
+            line-height: 22px;
+            font-size: $main-fontSize;
+            position: relative;
+            text-align: justify;
+            width: 96%;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 25px;
+                height: 2px;
+                background-color: #dedede;
+                left: 0;
+                top: 10px;
+            }
+            >span{
+                color: green;
+                font-weight: bold;
+            }
+        }
+        i{
+            color: #5153D5;
+            font-size: 35px;
+            padding-left: 20px;
+        }
+        .bottom{
+            margin-top: 20px;
+            border-top: 1px solid #717171;
+        }
+    }
+}
+
+
+//visual
+
+.visual{
+    h1{
+        color: #dedede;
+
+    }
+    form{
+        input{
+            padding: 10px 35px;
+            width: 250px;
+        }
+    }
+}
