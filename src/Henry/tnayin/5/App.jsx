@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import Manu from './Manu'
-import "./App.css"
+import "./App.scss"
 import info from "./data.json"
 
 export default function App(props) {
@@ -15,14 +15,13 @@ export default function App(props) {
             <Manu/>
             
         </div>
-        <p>Our <span>Prices</span></p>
+        <p className="p">Our <span>Prices</span></p>
         <div className="box">
-        
         {data.map(elem =>(
                 <div key={elem.id}>
-                    <p>{elem.packet}</p>
-                    <p>{elem.price}</p>
-                    <p>{elem.bandwidth}</p>
+                    <h1>{elem.packet}</h1>
+                    <h2>{elem.price}</h2>
+                    <p id="first">{elem.bandwidth}</p>
                     <p>{elem.onlinespace}</p>
                     <p>{elem.suport}</p>
                     <button>JOIN NOW</button>
