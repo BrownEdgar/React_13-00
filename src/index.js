@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom'
-import App from "./Tigran/Tany/homework9/App";
+import App from "./Tigran/Texum/Authification/App";
 
 
 
